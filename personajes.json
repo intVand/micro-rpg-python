@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "Virus",
+        "nombre": "Covid",
+        "victorias": 2,
+        "derrotas": 1
+    },
+    {
+        "tipo": "GlobuloBlanco",
+        "nombre": "Globy",
+        "victorias": 0,
+        "derrotas": 1
+    },
+    {
+        "tipo": "Hongo",
+        "nombre": "Fulgencio",
+        "victorias": 1,
+        "derrotas": 1
+    },
+    {
+        "tipo": "Parasito",
+        "nombre": "Tenio",
+        "victorias": 1,
+        "derrotas": 1
+    },
+    {
+        "tipo": "Bacteria",
+        "nombre": "Bacilo",
+        "victorias": 1,
+        "derrotas": 1
+    }
+]
