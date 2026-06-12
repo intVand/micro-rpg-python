@@ -1,10 +1,10 @@
-# 🧬 Micro-RPG Celular
+# Micro-RPG Celular
 
 Un juego de combate por turnos en dos dimensiones desarrollado en **Python** utilizando **Tkinter** para la interfaz gráfica y **JSON** para la persistencia de datos. El proyecto simula batallas microscópicas entre diferentes clases de microorganismos (Virus, Bacterias, Glóbulos Blancos, Hongos y Parásitos), aplicando conceptos de Programación Orientada a Objetos (POO).
 
 ---
 
-## 🎯 Características Principales
+## Características Principales
 
 * **Arquitectura POO Sólida:** Uso extensivo de herencia y encapsulamiento mediante una superclase `Personaje`. Implementación de **Polimorfismo** para que cada tipo de microorganismo ejecute una habilidad única y asimétrica.
 * **Interfaz Gráfica Unificada (GUI):** Diseñado con Tkinter bajo un enfoque de *Single-Page Application*. Toda la navegación (creación, base de datos, selección y combate) ocurre de forma dinámica en una sola ventana sin molestas pestañas emergentes.
@@ -17,16 +17,16 @@ Un juego de combate por turnos en dos dimensiones desarrollado en **Python** uti
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
-* **Lenguaje:** Python 3.14.0
-* **Interfaz Gráfica:** Tkinter (Biblioteca nativa)
-* **Formatos de Datos:** JSON (Persistencia local)
+* **Lenguaje:** `Python 3.14.0`
+* **Interfaz Gráfica:** `Tkinter` (Biblioteca nativa)
+* **Formatos de Datos:** `JSON` (Persistencia local)
 * **Lógicas del Motor:** Módulos nativos `os`, `random`, `math`
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 ├── assets/                 # Recursos gráficos (Sprites PNG e Icono .ico)
@@ -40,7 +40,7 @@ Un juego de combate por turnos en dos dimensiones desarrollado en **Python** uti
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 Este proyecto ha sido desarrollado utilizando exclusivamente la biblioteca estándar de Python, por lo que **no requiere la instalación de librerías de terceros** a través de `pip`.
 
@@ -59,4 +59,4 @@ Este proyecto ha sido desarrollado utilizando exclusivamente la biblioteca está
     python gui.py
     ```
 
-💡 **Nota de arquitectura:** Todo el flujo visual y los controladores de eventos residen centralizados en `gui.py` para mitigar las limitaciones nativas de Tkinter respecto a las dependencias cruzadas, evitando de forma intencionada fallos de importación circular (Circular Imports).
+**Nota de arquitectura:** Todo el flujo visual y los controladores de eventos residen centralizados en `gui.py` para mitigar las limitaciones nativas de Tkinter respecto a las dependencias cruzadas, evitando de forma intencionada fallos de importación circular (Circular Imports).
